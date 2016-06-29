@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="WZTextViewCell" rowHeight="40" id="KGk-i7-Jjw" customClass="WZTextViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="内容描述" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P9N-Db-EEc">
+                        <rect key="frame" x="8" y="10" width="64" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="64" id="Aux-9l-Lf9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wyh-N3-m9u" customClass="WZTextView">
+                        <rect key="frame" x="80" y="0.0" width="240" height="39"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wyh-N3-m9u" firstAttribute="top" secondItem="P9N-Db-EEc" secondAttribute="top" id="2g7-N4-Wwb"/>
+                    <constraint firstItem="wyh-N3-m9u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="83P-PZ-TM3"/>
+                    <constraint firstItem="wyh-N3-m9u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="FhP-Sb-ruR"/>
+                    <constraint firstAttribute="bottom" secondItem="wyh-N3-m9u" secondAttribute="bottom" id="Jcx-fm-aX3"/>
+                    <constraint firstItem="wyh-N3-m9u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="TNu-Zu-HrH"/>
+                    <constraint firstItem="P9N-Db-EEc" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="amw-cE-omO"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="P9N-Db-EEc" secondAttribute="leading" id="ctP-wf-Yht"/>
+                    <constraint firstItem="wyh-N3-m9u" firstAttribute="leading" secondItem="P9N-Db-EEc" secondAttribute="trailing" constant="8" id="iMP-hn-AQj"/>
+                    <constraint firstItem="wyh-N3-m9u" firstAttribute="leading" secondItem="P9N-Db-EEc" secondAttribute="leading" id="lR2-bt-4aJ"/>
+                    <constraint firstAttribute="trailing" secondItem="wyh-N3-m9u" secondAttribute="trailing" id="mJj-rP-FIi"/>
+                    <constraint firstItem="wyh-N3-m9u" firstAttribute="leading" secondItem="P9N-Db-EEc" secondAttribute="trailing" constant="8" symbolic="YES" id="rlu-Fv-JNp"/>
+                    <constraint firstItem="wyh-N3-m9u" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="vND-PA-d2u"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="2g7-N4-Wwb"/>
+                        <exclude reference="83P-PZ-TM3"/>
+                        <exclude reference="TNu-Zu-HrH"/>
+                        <exclude reference="iMP-hn-AQj"/>
+                        <exclude reference="lR2-bt-4aJ"/>
+                        <exclude reference="vND-PA-d2u"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="content_textView" destination="wyh-N3-m9u" id="pPN-V9-BMq"/>
+                <outlet property="title_label" destination="P9N-Db-EEc" id="uJL-LK-XqW"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
