@@ -10,7 +10,7 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface WZZbarScanController ()
-<UIAlertViewDelegate, AVCaptureMetadataOutputObjectsDelegate>
+<AVCaptureMetadataOutputObjectsDelegate>
 
 {
      AVCaptureSession * session;//输入输出的中间桥梁
@@ -55,7 +55,12 @@
     AVAuthorizationStatus authStatus = [AVCaptureDevice authorizationStatusForMediaType:mediaType];
     if(authStatus == AVAuthorizationStatusRestricted || authStatus == AVAuthorizationStatusDenied) {
         
-         [[[UIAlertView alloc] initWithTitle:nil message:@"亲,请先到系统“隐私”中打开相机权限哦！" delegate:self cancelButtonTitle:@"知道啦" otherButtonTitles:nil, nil] show];
+        UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:nil message:@"亲,请先到系统“隐私”中打开相机权限哦！" preferredStyle:UIAlertControllerStyleAlert];
+        [alertVC addAction:[UIAlertAction actionWithTitle:@"知道啦" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            
+            [self.navigationController popViewControllerAnimated:YES];
+        }]];
+        
         return;
     }
     else if (authStatus == AVAuthorizationStatusNotDetermined) {
@@ -65,7 +70,12 @@
                 //允许
             }else{
                 
-                [[[UIAlertView alloc] initWithTitle:nil message:@"亲,请先到系统“隐私”中打开相机权限哦！" delegate:self cancelButtonTitle:@"知道啦" otherButtonTitles:nil, nil] show];
+                UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:nil message:@"亲,请先到系统“隐私”中打开相机权限哦！" preferredStyle:UIAlertControllerStyleAlert];
+                [alertVC addAction:[UIAlertAction actionWithTitle:@"知道啦" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                    
+                    [self.navigationController popViewControllerAnimated:YES];
+                }]];
+                
                 return;
                 
             }
@@ -121,14 +131,6 @@
     }];
 }
 
-
-#pragma mark - UIAlertViewDelegate
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    if (buttonIndex == 0) {
-        [self.navigationController popViewControllerAnimated:YES];
-    }
-}
-
 //最后实现代理方法：
 #pragma mark AVCaptureMetadataOutputObjectsDelegate
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection{
@@ -139,7 +141,8 @@
         AVMetadataMachineReadableCodeObject * metadataObject = [metadataObjects objectAtIndex:0];
         stringValue = metadataObject.stringValue;
         
-        [[[UIAlertView alloc] initWithTitle:nil message:stringValue delegate:nil cancelButtonTitle:@"完美" otherButtonTitles:nil, nil] show];
+        UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:nil message:stringValue preferredStyle:UIAlertControllerStyleAlert];
+        [alertVC addAction:[UIAlertAction actionWithTitle:@"完美" style:UIAlertActionStyleCancel handler:nil]];
         
     }else{
         //扫码失败

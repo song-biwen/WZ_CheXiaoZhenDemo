@@ -13,7 +13,8 @@
 #import "WZEditorViewController.h" //tablevIew嵌套textView
 #import "WZZBarViewController.h" //二维码生成
 #import "WZZbarScanController.h" //二维码扫描
-#import "WZVoiceViewController.h" //音频
+#import "WZVoice2ViewController.h" //音频
+#import "WZVideoController.h" //视频
 
 @interface ViewController ()
 @property (nonatomic, strong) AVSpeechSynthesizer *synthesizer;
@@ -92,9 +93,16 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
-//音频WZVoiceViewController
+//音频WZVoiceViewController WZVoice2ViewController
 - (IBAction)voiceAction {
-    WZVoiceViewController *vc = [[WZVoiceViewController alloc] init];
+    WZVoice2ViewController *vc = [[WZVoice2ViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+//视频 WZVideoController
+- (IBAction)videoAction {
+    
+    WZVideoController *vc = [[WZVideoController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 @end

@@ -20,6 +20,8 @@
 		4C0D505E1D2118BB006CA2DA /* WZEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0D505C1D2118BB006CA2DA /* WZEditorViewController.xib */; };
 		4C0D50621D21191C006CA2DA /* WZTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D50601D21191C006CA2DA /* WZTextViewCell.m */; };
 		4C0D50631D21191C006CA2DA /* WZTextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0D50611D21191C006CA2DA /* WZTextViewCell.xib */; };
+		4C1D70D41D23A3FF000EB430 /* WZVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D70D21D23A3FF000EB430 /* WZVideoController.m */; };
+		4C1D70D51D23A3FF000EB430 /* WZVideoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C1D70D31D23A3FF000EB430 /* WZVideoController.xib */; };
 		4C32D61A1D220E7E0034D459 /* WZZBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32D6181D220E7E0034D459 /* WZZBarViewController.m */; };
 		4C32D61B1D220E7E0034D459 /* WZZBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C32D6191D220E7E0034D459 /* WZZBarViewController.xib */; };
 		4C32D61D1D220EE20034D459 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C32D61C1D220EE20034D459 /* CoreImage.framework */; };
@@ -33,6 +35,13 @@
 		4C334C8E1D20BBF500E67A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C334C8D1D20BBF500E67A36 /* Assets.xcassets */; };
 		4C334C911D20BBF500E67A36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C334C8F1D20BBF500E67A36 /* LaunchScreen.storyboard */; };
 		4C334C991D20BC3F00E67A36 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C334C981D20BC3F00E67A36 /* AVFoundation.framework */; };
+		4C3B076B1D24C2A9001BB2DE /* amrFileCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B075E1D24C2A9001BB2DE /* amrFileCodec.m */; };
+		4C3B076C1D24C2A9001BB2DE /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3B07671D24C2A9001BB2DE /* libopencore-amrnb.a */; };
+		4C3B076D1D24C2A9001BB2DE /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3B07681D24C2A9001BB2DE /* libopencore-amrwb.a */; };
+		4C3B076E1D24C2A9001BB2DE /* RecordVoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B076A1D24C2A9001BB2DE /* RecordVoice.m */; };
+		4C3B07711D24C484001BB2DE /* RecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B07701D24C484001BB2DE /* RecordManager.m */; };
+		4C3B07751D24C7C9001BB2DE /* WZVoice2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B07731D24C7C9001BB2DE /* WZVoice2ViewController.m */; };
+		4C3B07761D24C7C9001BB2DE /* WZVoice2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3B07741D24C7C9001BB2DE /* WZVoice2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +66,9 @@
 		4C0D505F1D21191C006CA2DA /* WZTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZTextViewCell.h; sourceTree = "<group>"; };
 		4C0D50601D21191C006CA2DA /* WZTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZTextViewCell.m; sourceTree = "<group>"; };
 		4C0D50611D21191C006CA2DA /* WZTextViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZTextViewCell.xib; sourceTree = "<group>"; };
+		4C1D70D11D23A3FF000EB430 /* WZVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZVideoController.h; sourceTree = "<group>"; };
+		4C1D70D21D23A3FF000EB430 /* WZVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZVideoController.m; sourceTree = "<group>"; };
+		4C1D70D31D23A3FF000EB430 /* WZVideoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZVideoController.xib; sourceTree = "<group>"; };
 		4C32D6171D220E7E0034D459 /* WZZBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBarViewController.h; sourceTree = "<group>"; };
 		4C32D6181D220E7E0034D459 /* WZZBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBarViewController.m; sourceTree = "<group>"; };
 		4C32D6191D220E7E0034D459 /* WZZBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZZBarViewController.xib; sourceTree = "<group>"; };
@@ -75,6 +87,22 @@
 		4C334C901D20BBF500E67A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C334C921D20BBF500E67A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C334C981D20BC3F00E67A36 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4C3B075D1D24C2A9001BB2DE /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		4C3B075E1D24C2A9001BB2DE /* amrFileCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amrFileCodec.m; sourceTree = "<group>"; };
+		4C3B07611D24C2A9001BB2DE /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		4C3B07621D24C2A9001BB2DE /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		4C3B07641D24C2A9001BB2DE /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		4C3B07651D24C2A9001BB2DE /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		4C3B07671D24C2A9001BB2DE /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		4C3B07681D24C2A9001BB2DE /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		4C3B07691D24C2A9001BB2DE /* RecordVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordVoice.h; sourceTree = "<group>"; };
+		4C3B076A1D24C2A9001BB2DE /* RecordVoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordVoice.m; sourceTree = "<group>"; };
+		4C3B076F1D24C484001BB2DE /* RecordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordManager.h; sourceTree = "<group>"; };
+		4C3B07701D24C484001BB2DE /* RecordManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordManager.m; sourceTree = "<group>"; };
+		4C3B07721D24C7C9001BB2DE /* WZVoice2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZVoice2ViewController.h; sourceTree = "<group>"; };
+		4C3B07731D24C7C9001BB2DE /* WZVoice2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZVoice2ViewController.m; sourceTree = "<group>"; };
+		4C3B07741D24C7C9001BB2DE /* WZVoice2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZVoice2ViewController.xib; sourceTree = "<group>"; };
+		4CF0CEB31D24F56200100DE5 /* 音频.amr */ = {isa = PBXFileReference; lastKnownFileType = file; path = "音频.amr"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +111,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C32D61D1D220EE20034D459 /* CoreImage.framework in Frameworks */,
+				4C3B076C1D24C2A9001BB2DE /* libopencore-amrnb.a in Frameworks */,
+				4C3B076D1D24C2A9001BB2DE /* libopencore-amrwb.a in Frameworks */,
 				4C334C991D20BC3F00E67A36 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -123,6 +153,12 @@
 				4C32D6251D2267870034D459 /* WZVoiceViewController.h */,
 				4C32D6261D2267870034D459 /* WZVoiceViewController.m */,
 				4C32D6271D2267870034D459 /* WZVoiceViewController.xib */,
+				4C3B07721D24C7C9001BB2DE /* WZVoice2ViewController.h */,
+				4C3B07731D24C7C9001BB2DE /* WZVoice2ViewController.m */,
+				4C3B07741D24C7C9001BB2DE /* WZVoice2ViewController.xib */,
+				4C1D70D11D23A3FF000EB430 /* WZVideoController.h */,
+				4C1D70D21D23A3FF000EB430 /* WZVideoController.m */,
+				4C1D70D31D23A3FF000EB430 /* WZVideoController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -130,6 +166,9 @@
 		4C0D50451D2107E5006CA2DA /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				4C3B076F1D24C484001BB2DE /* RecordManager.h */,
+				4C3B07701D24C484001BB2DE /* RecordManager.m */,
+				4C3B075C1D24C2A9001BB2DE /* arm */,
 				4C32D6231D2228990034D459 /* xiangkuang.png */,
 				4C0D50461D2107E5006CA2DA /* AppDelegate.h */,
 				4C0D50471D2107E5006CA2DA /* AppDelegate.m */,
@@ -178,6 +217,7 @@
 				4C334C8D1D20BBF500E67A36 /* Assets.xcassets */,
 				4C334C8F1D20BBF500E67A36 /* LaunchScreen.storyboard */,
 				4C334C921D20BBF500E67A36 /* Info.plist */,
+				4CF0CEB31D24F56200100DE5 /* 音频.amr */,
 				4C334C811D20BBF500E67A36 /* Supporting Files */,
 			);
 			path = chexiaozhen;
@@ -189,6 +229,55 @@
 				4C334C821D20BBF500E67A36 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C3B075C1D24C2A9001BB2DE /* arm */ = {
+			isa = PBXGroup;
+			children = (
+				4C3B075D1D24C2A9001BB2DE /* amrFileCodec.h */,
+				4C3B075E1D24C2A9001BB2DE /* amrFileCodec.m */,
+				4C3B075F1D24C2A9001BB2DE /* include */,
+				4C3B07661D24C2A9001BB2DE /* lib */,
+				4C3B07691D24C2A9001BB2DE /* RecordVoice.h */,
+				4C3B076A1D24C2A9001BB2DE /* RecordVoice.m */,
+			);
+			path = arm;
+			sourceTree = "<group>";
+		};
+		4C3B075F1D24C2A9001BB2DE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4C3B07601D24C2A9001BB2DE /* opencore-amrnb */,
+				4C3B07631D24C2A9001BB2DE /* opencore-amrwb */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4C3B07601D24C2A9001BB2DE /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				4C3B07611D24C2A9001BB2DE /* interf_dec.h */,
+				4C3B07621D24C2A9001BB2DE /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		4C3B07631D24C2A9001BB2DE /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				4C3B07641D24C2A9001BB2DE /* dec_if.h */,
+				4C3B07651D24C2A9001BB2DE /* if_rom.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		4C3B07661D24C2A9001BB2DE /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4C3B07671D24C2A9001BB2DE /* libopencore-amrnb.a */,
+				4C3B07681D24C2A9001BB2DE /* libopencore-amrwb.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,11 +345,13 @@
 				4C334C8E1D20BBF500E67A36 /* Assets.xcassets in Resources */,
 				4C334C8C1D20BBF500E67A36 /* Main.storyboard in Resources */,
 				4C0D50631D21191C006CA2DA /* WZTextViewCell.xib in Resources */,
+				4C1D70D51D23A3FF000EB430 /* WZVideoController.xib in Resources */,
 				4C0D505E1D2118BB006CA2DA /* WZEditorViewController.xib in Resources */,
 				4C32D6291D2267870034D459 /* WZVoiceViewController.xib in Resources */,
 				4C32D6241D2228990034D459 /* xiangkuang.png in Resources */,
 				4C0D50511D2107E5006CA2DA /* WZCustomLeftSliderCell.xib in Resources */,
 				4C0D504E1D2107E5006CA2DA /* WZCustomLeftSliderController.xib in Resources */,
+				4C3B07761D24C7C9001BB2DE /* WZVoice2ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +365,16 @@
 				4C0D50541D210827006CA2DA /* WZTextViewController.m in Sources */,
 				4C32D6211D2217300034D459 /* WZZbarScanController.m in Sources */,
 				4C0D504C1D2107E5006CA2DA /* ViewController.m in Sources */,
+				4C3B076E1D24C2A9001BB2DE /* RecordVoice.m in Sources */,
+				4C3B07711D24C484001BB2DE /* RecordManager.m in Sources */,
+				4C1D70D41D23A3FF000EB430 /* WZVideoController.m in Sources */,
 				4C0D505D1D2118BB006CA2DA /* WZEditorViewController.m in Sources */,
 				4C32D6281D2267870034D459 /* WZVoiceViewController.m in Sources */,
 				4C0D50501D2107E5006CA2DA /* WZCustomLeftSliderCell.m in Sources */,
+				4C3B07751D24C7C9001BB2DE /* WZVoice2ViewController.m in Sources */,
 				4C0D504F1D2107E5006CA2DA /* AppDelegate.m in Sources */,
 				4C0D504D1D2107E5006CA2DA /* WZCustomLeftSliderController.m in Sources */,
+				4C3B076B1D24C2A9001BB2DE /* amrFileCodec.m in Sources */,
 				4C32D61A1D220E7E0034D459 /* WZZBarViewController.m in Sources */,
 				4C334C831D20BBF500E67A36 /* main.m in Sources */,
 				4C0D50621D21191C006CA2DA /* WZTextViewCell.m in Sources */,
@@ -394,8 +490,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = chexiaozhen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/chexiaozhen/Class/Other/arm/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.renhedao.chexiaozhen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,8 +506,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = chexiaozhen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/chexiaozhen/Class/Other/arm/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.renhedao.chexiaozhen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
