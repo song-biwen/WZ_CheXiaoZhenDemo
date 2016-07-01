@@ -27,6 +27,7 @@ typedef void (^progressBlock)(float progress);
 /* 取消录音,删除文件 */
 - (void)cancelTalkVoice;
 
+
 /* 播放amr 文件 */
 - (void)playAmrData:(NSData*)amrData;
 

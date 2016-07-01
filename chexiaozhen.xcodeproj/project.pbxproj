@@ -22,6 +22,8 @@
 		4C0D50631D21191C006CA2DA /* WZTextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C0D50611D21191C006CA2DA /* WZTextViewCell.xib */; };
 		4C1D70D41D23A3FF000EB430 /* WZVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1D70D21D23A3FF000EB430 /* WZVideoController.m */; };
 		4C1D70D51D23A3FF000EB430 /* WZVideoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C1D70D31D23A3FF000EB430 /* WZVideoController.xib */; };
+		4C247CEF1D260945001ADB28 /* WZKeFuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C247CED1D260945001ADB28 /* WZKeFuViewController.m */; };
+		4C247CF01D260945001ADB28 /* WZKeFuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C247CEE1D260945001ADB28 /* WZKeFuViewController.xib */; };
 		4C32D61A1D220E7E0034D459 /* WZZBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32D6181D220E7E0034D459 /* WZZBarViewController.m */; };
 		4C32D61B1D220E7E0034D459 /* WZZBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C32D6191D220E7E0034D459 /* WZZBarViewController.xib */; };
 		4C32D61D1D220EE20034D459 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C32D61C1D220EE20034D459 /* CoreImage.framework */; };
@@ -42,6 +44,17 @@
 		4C3B07711D24C484001BB2DE /* RecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B07701D24C484001BB2DE /* RecordManager.m */; };
 		4C3B07751D24C7C9001BB2DE /* WZVoice2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B07731D24C7C9001BB2DE /* WZVoice2ViewController.m */; };
 		4C3B07761D24C7C9001BB2DE /* WZVoice2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3B07741D24C7C9001BB2DE /* WZVoice2ViewController.xib */; };
+		4CF0CEB51D25022A00100DE5 /* 薛之谦-丑八怪.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0CEB41D25022A00100DE5 /* 薛之谦-丑八怪.mp3 */; };
+		4CF0CEBB1D250CEB00100DE5 /* AppKeFuResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0CEB81D250CEB00100DE5 /* AppKeFuResources.bundle */; };
+		4CF0CEBC1D250CEB00100DE5 /* libAppKeFuLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF0CEB91D250CEB00100DE5 /* libAppKeFuLib.a */; };
+		4CF0CEBD1D250CEB00100DE5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0CEBA1D250CEB00100DE5 /* README.md */; };
+		4CF0CEBF1D250D1E00100DE5 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF0CEBE1D250D1E00100DE5 /* libxml2.tbd */; };
+		4CF0CEC11D250D2A00100DE5 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF0CEC01D250D2A00100DE5 /* libresolv.tbd */; };
+		4CF0CEC31D250D3700100DE5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF0CEC21D250D3700100DE5 /* SystemConfiguration.framework */; };
+		4CF0CEC51D250D4500100DE5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF0CEC41D250D4500100DE5 /* CoreLocation.framework */; };
+		4CF0CEC71D250D4E00100DE5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF0CEC61D250D4E00100DE5 /* CoreData.framework */; };
+		4CF0CEC91D250D5B00100DE5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF0CEC81D250D5B00100DE5 /* AudioToolbox.framework */; };
+		4CF0CECB1D250D6700100DE5 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF0CECA1D250D6700100DE5 /* libiconv.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +82,9 @@
 		4C1D70D11D23A3FF000EB430 /* WZVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZVideoController.h; sourceTree = "<group>"; };
 		4C1D70D21D23A3FF000EB430 /* WZVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZVideoController.m; sourceTree = "<group>"; };
 		4C1D70D31D23A3FF000EB430 /* WZVideoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZVideoController.xib; sourceTree = "<group>"; };
+		4C247CEC1D260945001ADB28 /* WZKeFuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZKeFuViewController.h; sourceTree = "<group>"; };
+		4C247CED1D260945001ADB28 /* WZKeFuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZKeFuViewController.m; sourceTree = "<group>"; };
+		4C247CEE1D260945001ADB28 /* WZKeFuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZKeFuViewController.xib; sourceTree = "<group>"; };
 		4C32D6171D220E7E0034D459 /* WZZBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZBarViewController.h; sourceTree = "<group>"; };
 		4C32D6181D220E7E0034D459 /* WZZBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZBarViewController.m; sourceTree = "<group>"; };
 		4C32D6191D220E7E0034D459 /* WZZBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZZBarViewController.xib; sourceTree = "<group>"; };
@@ -103,6 +119,18 @@
 		4C3B07731D24C7C9001BB2DE /* WZVoice2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZVoice2ViewController.m; sourceTree = "<group>"; };
 		4C3B07741D24C7C9001BB2DE /* WZVoice2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZVoice2ViewController.xib; sourceTree = "<group>"; };
 		4CF0CEB31D24F56200100DE5 /* 音频.amr */ = {isa = PBXFileReference; lastKnownFileType = file; path = "音频.amr"; sourceTree = "<group>"; };
+		4CF0CEB41D25022A00100DE5 /* 薛之谦-丑八怪.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "薛之谦-丑八怪.mp3"; sourceTree = "<group>"; };
+		4CF0CEB71D250CEB00100DE5 /* AppKeFuLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppKeFuLib.h; sourceTree = "<group>"; };
+		4CF0CEB81D250CEB00100DE5 /* AppKeFuResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppKeFuResources.bundle; sourceTree = "<group>"; };
+		4CF0CEB91D250CEB00100DE5 /* libAppKeFuLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppKeFuLib.a; sourceTree = "<group>"; };
+		4CF0CEBA1D250CEB00100DE5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4CF0CEBE1D250D1E00100DE5 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		4CF0CEC01D250D2A00100DE5 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		4CF0CEC21D250D3700100DE5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4CF0CEC41D250D4500100DE5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4CF0CEC61D250D4E00100DE5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4CF0CEC81D250D5B00100DE5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4CF0CECA1D250D6700100DE5 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +138,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CF0CECB1D250D6700100DE5 /* libiconv.tbd in Frameworks */,
+				4CF0CEC91D250D5B00100DE5 /* AudioToolbox.framework in Frameworks */,
+				4CF0CEC71D250D4E00100DE5 /* CoreData.framework in Frameworks */,
+				4CF0CEC51D250D4500100DE5 /* CoreLocation.framework in Frameworks */,
+				4CF0CEC31D250D3700100DE5 /* SystemConfiguration.framework in Frameworks */,
+				4CF0CEC11D250D2A00100DE5 /* libresolv.tbd in Frameworks */,
+				4CF0CEBF1D250D1E00100DE5 /* libxml2.tbd in Frameworks */,
 				4C32D61D1D220EE20034D459 /* CoreImage.framework in Frameworks */,
 				4C3B076C1D24C2A9001BB2DE /* libopencore-amrnb.a in Frameworks */,
+				4CF0CEBC1D250CEB00100DE5 /* libAppKeFuLib.a in Frameworks */,
 				4C3B076D1D24C2A9001BB2DE /* libopencore-amrwb.a in Frameworks */,
 				4C334C991D20BC3F00E67A36 /* AVFoundation.framework in Frameworks */,
 			);
@@ -125,6 +161,7 @@
 			children = (
 				4C0D503F1D2107E5006CA2DA /* Controller */,
 				4C0D50451D2107E5006CA2DA /* Other */,
+				4CF0CEB61D250CEB00100DE5 /* AppKeFuLib */,
 				4C0D50481D2107E5006CA2DA /* View */,
 			);
 			path = Class;
@@ -159,6 +196,9 @@
 				4C1D70D11D23A3FF000EB430 /* WZVideoController.h */,
 				4C1D70D21D23A3FF000EB430 /* WZVideoController.m */,
 				4C1D70D31D23A3FF000EB430 /* WZVideoController.xib */,
+				4C247CEC1D260945001ADB28 /* WZKeFuViewController.h */,
+				4C247CED1D260945001ADB28 /* WZKeFuViewController.m */,
+				4C247CEE1D260945001ADB28 /* WZKeFuViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,6 +234,13 @@
 		4C334C751D20BBF500E67A36 = {
 			isa = PBXGroup;
 			children = (
+				4CF0CECA1D250D6700100DE5 /* libiconv.tbd */,
+				4CF0CEC81D250D5B00100DE5 /* AudioToolbox.framework */,
+				4CF0CEC61D250D4E00100DE5 /* CoreData.framework */,
+				4CF0CEC41D250D4500100DE5 /* CoreLocation.framework */,
+				4CF0CEC21D250D3700100DE5 /* SystemConfiguration.framework */,
+				4CF0CEC01D250D2A00100DE5 /* libresolv.tbd */,
+				4CF0CEBE1D250D1E00100DE5 /* libxml2.tbd */,
 				4C32D61C1D220EE20034D459 /* CoreImage.framework */,
 				4C334C981D20BC3F00E67A36 /* AVFoundation.framework */,
 				4C334C801D20BBF500E67A36 /* chexiaozhen */,
@@ -217,6 +264,7 @@
 				4C334C8D1D20BBF500E67A36 /* Assets.xcassets */,
 				4C334C8F1D20BBF500E67A36 /* LaunchScreen.storyboard */,
 				4C334C921D20BBF500E67A36 /* Info.plist */,
+				4CF0CEB41D25022A00100DE5 /* 薛之谦-丑八怪.mp3 */,
 				4CF0CEB31D24F56200100DE5 /* 音频.amr */,
 				4C334C811D20BBF500E67A36 /* Supporting Files */,
 			);
@@ -280,6 +328,17 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		4CF0CEB61D250CEB00100DE5 /* AppKeFuLib */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0CEB71D250CEB00100DE5 /* AppKeFuLib.h */,
+				4CF0CEB81D250CEB00100DE5 /* AppKeFuResources.bundle */,
+				4CF0CEB91D250CEB00100DE5 /* libAppKeFuLib.a */,
+				4CF0CEBA1D250CEB00100DE5 /* README.md */,
+			);
+			path = AppKeFuLib;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -340,9 +399,12 @@
 			files = (
 				4C32D6221D2217300034D459 /* WZZbarScanController.xib in Resources */,
 				4C0D50591D2108BD006CA2DA /* WZTextViewController.xib in Resources */,
+				4CF0CEB51D25022A00100DE5 /* 薛之谦-丑八怪.mp3 in Resources */,
+				4C247CF01D260945001ADB28 /* WZKeFuViewController.xib in Resources */,
 				4C334C911D20BBF500E67A36 /* LaunchScreen.storyboard in Resources */,
 				4C32D61B1D220E7E0034D459 /* WZZBarViewController.xib in Resources */,
 				4C334C8E1D20BBF500E67A36 /* Assets.xcassets in Resources */,
+				4CF0CEBB1D250CEB00100DE5 /* AppKeFuResources.bundle in Resources */,
 				4C334C8C1D20BBF500E67A36 /* Main.storyboard in Resources */,
 				4C0D50631D21191C006CA2DA /* WZTextViewCell.xib in Resources */,
 				4C1D70D51D23A3FF000EB430 /* WZVideoController.xib in Resources */,
@@ -368,11 +430,13 @@
 				4C3B076E1D24C2A9001BB2DE /* RecordVoice.m in Sources */,
 				4C3B07711D24C484001BB2DE /* RecordManager.m in Sources */,
 				4C1D70D41D23A3FF000EB430 /* WZVideoController.m in Sources */,
+				4CF0CEBD1D250CEB00100DE5 /* README.md in Sources */,
 				4C0D505D1D2118BB006CA2DA /* WZEditorViewController.m in Sources */,
 				4C32D6281D2267870034D459 /* WZVoiceViewController.m in Sources */,
 				4C0D50501D2107E5006CA2DA /* WZCustomLeftSliderCell.m in Sources */,
 				4C3B07751D24C7C9001BB2DE /* WZVoice2ViewController.m in Sources */,
 				4C0D504F1D2107E5006CA2DA /* AppDelegate.m in Sources */,
+				4C247CEF1D260945001ADB28 /* WZKeFuViewController.m in Sources */,
 				4C0D504D1D2107E5006CA2DA /* WZCustomLeftSliderController.m in Sources */,
 				4C3B076B1D24C2A9001BB2DE /* amrFileCodec.m in Sources */,
 				4C32D61A1D220E7E0034D459 /* WZZBarViewController.m in Sources */,
@@ -492,10 +556,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = chexiaozhen/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/chexiaozhen/Class/Other/arm/lib",
+					"$(PROJECT_DIR)/chexiaozhen/Class/AppKeFuLib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"$(SRCROOT)/chexiaozhen/Class/AppKeFuLib/libAppKeFuLib.a",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.renhedao.chexiaozhen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,10 +578,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = chexiaozhen/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/chexiaozhen/Class/Other/arm/lib",
+					"$(PROJECT_DIR)/chexiaozhen/Class/AppKeFuLib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"$(SRCROOT)/chexiaozhen/Class/AppKeFuLib/libAppKeFuLib.a",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.renhedao.chexiaozhen;
 				PRODUCT_NAME = "$(TARGET_NAME)";

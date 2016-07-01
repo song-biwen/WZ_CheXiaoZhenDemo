@@ -15,6 +15,7 @@
 #import "WZZbarScanController.h" //二维码扫描
 #import "WZVoice2ViewController.h" //音频
 #import "WZVideoController.h" //视频
+#import "WZKeFuViewController.h"//微客服
 
 @interface ViewController ()
 @property (nonatomic, strong) AVSpeechSynthesizer *synthesizer;
@@ -103,6 +104,12 @@
 - (IBAction)videoAction {
     
     WZVideoController *vc = [[WZVideoController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+//客服 WZKeFuViewController
+- (IBAction)kefuAction {
+    WZKeFuViewController *vc = [[WZKeFuViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 @end

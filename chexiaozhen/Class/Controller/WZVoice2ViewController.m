@@ -10,11 +10,13 @@
 
 #import "WZVoice2ViewController.h"
 #import "RecordManager.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface WZVoice2ViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *msg_label;
 @property (nonatomic, strong) RecordManager *recordManager;
+@property (nonatomic, strong) AVAudioPlayer *player;
 @end
 
 @implementation WZVoice2ViewController
@@ -76,9 +78,18 @@
  */
 
 - (IBAction)playLocalAmrClick:(UIButton *)sender {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"音频.amr" ofType:nil];
-    NSData *data = [NSData dataWithContentsOfURL:[NSURL fileURLWithPath:path]];
-    [self.recordManager playAmrData:data];
     
+    [self.player play];
+}
+
+- (AVAudioPlayer *)player {
+    if (_player == nil) {
+        
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"薛之谦-丑八怪" ofType:@"mp3"];
+        _player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:nil];
+        [_player prepareToPlay];
+    }
+    
+    return _player;
 }
 @end
