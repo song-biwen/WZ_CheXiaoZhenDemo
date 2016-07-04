@@ -44,6 +44,9 @@
 		4C3B07711D24C484001BB2DE /* RecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B07701D24C484001BB2DE /* RecordManager.m */; };
 		4C3B07751D24C7C9001BB2DE /* WZVoice2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B07731D24C7C9001BB2DE /* WZVoice2ViewController.m */; };
 		4C3B07761D24C7C9001BB2DE /* WZVoice2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3B07741D24C7C9001BB2DE /* WZVoice2ViewController.xib */; };
+		4CE936241D29FC8800FFE160 /* WZCityLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE936221D29FC8800FFE160 /* WZCityLocationController.m */; };
+		4CE936251D29FC8800FFE160 /* WZCityLocationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CE936231D29FC8800FFE160 /* WZCityLocationController.xib */; };
+		4CE936271D2A2FF300FFE160 /* cityGroups.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CE936261D2A2FF300FFE160 /* cityGroups.plist */; };
 		4CF0CEB51D25022A00100DE5 /* 薛之谦-丑八怪.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0CEB41D25022A00100DE5 /* 薛之谦-丑八怪.mp3 */; };
 		4CF0CEBB1D250CEB00100DE5 /* AppKeFuResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4CF0CEB81D250CEB00100DE5 /* AppKeFuResources.bundle */; };
 		4CF0CEBC1D250CEB00100DE5 /* libAppKeFuLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF0CEB91D250CEB00100DE5 /* libAppKeFuLib.a */; };
@@ -118,6 +121,10 @@
 		4C3B07721D24C7C9001BB2DE /* WZVoice2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZVoice2ViewController.h; sourceTree = "<group>"; };
 		4C3B07731D24C7C9001BB2DE /* WZVoice2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZVoice2ViewController.m; sourceTree = "<group>"; };
 		4C3B07741D24C7C9001BB2DE /* WZVoice2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZVoice2ViewController.xib; sourceTree = "<group>"; };
+		4CE936211D29FC8800FFE160 /* WZCityLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCityLocationController.h; sourceTree = "<group>"; };
+		4CE936221D29FC8800FFE160 /* WZCityLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCityLocationController.m; sourceTree = "<group>"; };
+		4CE936231D29FC8800FFE160 /* WZCityLocationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZCityLocationController.xib; sourceTree = "<group>"; };
+		4CE936261D2A2FF300FFE160 /* cityGroups.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cityGroups.plist; sourceTree = "<group>"; };
 		4CF0CEB31D24F56200100DE5 /* 音频.amr */ = {isa = PBXFileReference; lastKnownFileType = file; path = "音频.amr"; sourceTree = "<group>"; };
 		4CF0CEB41D25022A00100DE5 /* 薛之谦-丑八怪.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "薛之谦-丑八怪.mp3"; sourceTree = "<group>"; };
 		4CF0CEB71D250CEB00100DE5 /* AppKeFuLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppKeFuLib.h; sourceTree = "<group>"; };
@@ -138,10 +145,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CF0CEC51D250D4500100DE5 /* CoreLocation.framework in Frameworks */,
 				4CF0CECB1D250D6700100DE5 /* libiconv.tbd in Frameworks */,
 				4CF0CEC91D250D5B00100DE5 /* AudioToolbox.framework in Frameworks */,
 				4CF0CEC71D250D4E00100DE5 /* CoreData.framework in Frameworks */,
-				4CF0CEC51D250D4500100DE5 /* CoreLocation.framework in Frameworks */,
 				4CF0CEC31D250D3700100DE5 /* SystemConfiguration.framework in Frameworks */,
 				4CF0CEC11D250D2A00100DE5 /* libresolv.tbd in Frameworks */,
 				4CF0CEBF1D250D1E00100DE5 /* libxml2.tbd in Frameworks */,
@@ -199,6 +206,9 @@
 				4C247CEC1D260945001ADB28 /* WZKeFuViewController.h */,
 				4C247CED1D260945001ADB28 /* WZKeFuViewController.m */,
 				4C247CEE1D260945001ADB28 /* WZKeFuViewController.xib */,
+				4CE936211D29FC8800FFE160 /* WZCityLocationController.h */,
+				4CE936221D29FC8800FFE160 /* WZCityLocationController.m */,
+				4CE936231D29FC8800FFE160 /* WZCityLocationController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -206,6 +216,7 @@
 		4C0D50451D2107E5006CA2DA /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				4CE936261D2A2FF300FFE160 /* cityGroups.plist */,
 				4C3B076F1D24C484001BB2DE /* RecordManager.h */,
 				4C3B07701D24C484001BB2DE /* RecordManager.m */,
 				4C3B075C1D24C2A9001BB2DE /* arm */,
@@ -399,8 +410,10 @@
 			files = (
 				4C32D6221D2217300034D459 /* WZZbarScanController.xib in Resources */,
 				4C0D50591D2108BD006CA2DA /* WZTextViewController.xib in Resources */,
+				4CE936251D29FC8800FFE160 /* WZCityLocationController.xib in Resources */,
 				4CF0CEB51D25022A00100DE5 /* 薛之谦-丑八怪.mp3 in Resources */,
 				4C247CF01D260945001ADB28 /* WZKeFuViewController.xib in Resources */,
+				4CE936271D2A2FF300FFE160 /* cityGroups.plist in Resources */,
 				4C334C911D20BBF500E67A36 /* LaunchScreen.storyboard in Resources */,
 				4C32D61B1D220E7E0034D459 /* WZZBarViewController.xib in Resources */,
 				4C334C8E1D20BBF500E67A36 /* Assets.xcassets in Resources */,
@@ -432,6 +445,7 @@
 				4C1D70D41D23A3FF000EB430 /* WZVideoController.m in Sources */,
 				4CF0CEBD1D250CEB00100DE5 /* README.md in Sources */,
 				4C0D505D1D2118BB006CA2DA /* WZEditorViewController.m in Sources */,
+				4CE936241D29FC8800FFE160 /* WZCityLocationController.m in Sources */,
 				4C32D6281D2267870034D459 /* WZVoiceViewController.m in Sources */,
 				4C0D50501D2107E5006CA2DA /* WZCustomLeftSliderCell.m in Sources */,
 				4C3B07751D24C7C9001BB2DE /* WZVoice2ViewController.m in Sources */,
