@@ -44,6 +44,8 @@
 		4C3B07711D24C484001BB2DE /* RecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B07701D24C484001BB2DE /* RecordManager.m */; };
 		4C3B07751D24C7C9001BB2DE /* WZVoice2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B07731D24C7C9001BB2DE /* WZVoice2ViewController.m */; };
 		4C3B07761D24C7C9001BB2DE /* WZVoice2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3B07741D24C7C9001BB2DE /* WZVoice2ViewController.xib */; };
+		4CACEB681D2F37E500E05547 /* WZAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CACEB661D2F37E500E05547 /* WZAnimationController.m */; };
+		4CACEB691D2F37E500E05547 /* WZAnimationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CACEB671D2F37E500E05547 /* WZAnimationController.xib */; };
 		4CE936241D29FC8800FFE160 /* WZCityLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE936221D29FC8800FFE160 /* WZCityLocationController.m */; };
 		4CE936251D29FC8800FFE160 /* WZCityLocationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CE936231D29FC8800FFE160 /* WZCityLocationController.xib */; };
 		4CE936271D2A2FF300FFE160 /* cityGroups.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CE936261D2A2FF300FFE160 /* cityGroups.plist */; };
@@ -121,6 +123,9 @@
 		4C3B07721D24C7C9001BB2DE /* WZVoice2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZVoice2ViewController.h; sourceTree = "<group>"; };
 		4C3B07731D24C7C9001BB2DE /* WZVoice2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZVoice2ViewController.m; sourceTree = "<group>"; };
 		4C3B07741D24C7C9001BB2DE /* WZVoice2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZVoice2ViewController.xib; sourceTree = "<group>"; };
+		4CACEB651D2F37E500E05547 /* WZAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZAnimationController.h; sourceTree = "<group>"; };
+		4CACEB661D2F37E500E05547 /* WZAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZAnimationController.m; sourceTree = "<group>"; };
+		4CACEB671D2F37E500E05547 /* WZAnimationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZAnimationController.xib; sourceTree = "<group>"; };
 		4CE936211D29FC8800FFE160 /* WZCityLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCityLocationController.h; sourceTree = "<group>"; };
 		4CE936221D29FC8800FFE160 /* WZCityLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCityLocationController.m; sourceTree = "<group>"; };
 		4CE936231D29FC8800FFE160 /* WZCityLocationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZCityLocationController.xib; sourceTree = "<group>"; };
@@ -177,6 +182,9 @@
 		4C0D503F1D2107E5006CA2DA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4CACEB651D2F37E500E05547 /* WZAnimationController.h */,
+				4CACEB661D2F37E500E05547 /* WZAnimationController.m */,
+				4CACEB671D2F37E500E05547 /* WZAnimationController.xib */,
 				4C0D50401D2107E5006CA2DA /* ViewController.h */,
 				4C0D50411D2107E5006CA2DA /* ViewController.m */,
 				4C0D50421D2107E5006CA2DA /* WZCustomLeftSliderController.h */,
@@ -427,6 +435,7 @@
 				4C0D50511D2107E5006CA2DA /* WZCustomLeftSliderCell.xib in Resources */,
 				4C0D504E1D2107E5006CA2DA /* WZCustomLeftSliderController.xib in Resources */,
 				4C3B07761D24C7C9001BB2DE /* WZVoice2ViewController.xib in Resources */,
+				4CACEB691D2F37E500E05547 /* WZAnimationController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +459,7 @@
 				4C0D50501D2107E5006CA2DA /* WZCustomLeftSliderCell.m in Sources */,
 				4C3B07751D24C7C9001BB2DE /* WZVoice2ViewController.m in Sources */,
 				4C0D504F1D2107E5006CA2DA /* AppDelegate.m in Sources */,
+				4CACEB681D2F37E500E05547 /* WZAnimationController.m in Sources */,
 				4C247CEF1D260945001ADB28 /* WZKeFuViewController.m in Sources */,
 				4C0D504D1D2107E5006CA2DA /* WZCustomLeftSliderController.m in Sources */,
 				4C3B076B1D24C2A9001BB2DE /* amrFileCodec.m in Sources */,

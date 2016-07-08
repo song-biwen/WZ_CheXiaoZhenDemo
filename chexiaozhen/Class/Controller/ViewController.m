@@ -17,6 +17,7 @@
 #import "WZVideoController.h" //视频
 #import "WZKeFuViewController.h"//微客服
 #import "WZCityLocationController.h" //城市定位
+#import "WZAnimationController.h" //动画
 
 
 
@@ -30,6 +31,7 @@
 #define KContent8 @"视频"
 #define KContent9 @"微客服"
 #define KContent10 @"城市定位"
+#define KContent11 @"动画"
 
 @interface ViewController ()
 <UITableViewDelegate, UITableViewDataSource>
@@ -74,6 +76,7 @@
                        KContent8,
                        KContent9,
                        KContent10,
+                       KContent11,
                        nil];
 }
 
@@ -166,6 +169,12 @@
     if ([content isEqualToString:KContent10]) {
         //城市定位
         WZCityLocationController *vc = [[WZCityLocationController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
+    if ([content isEqualToString:KContent11]) {
+        //动画
+        WZAnimationController *vc = [[WZAnimationController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 
